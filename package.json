@@ -1,0 +1,25 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd --file ./config/dev.env nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "pgolfier",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^9.0.1",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.2",
+    "express": "^4.17.0",
+    "socket.io": "^2.2.0"
+  }
+}
